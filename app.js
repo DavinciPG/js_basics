@@ -37,3 +37,32 @@ console.log(typeof symbol)
 let test
 console.log(test)
 console.log(typeof test)
+
+let val
+val = String(true)
+val = String(false)
+
+val = String(new Date())
+
+val = String(null)
+
+val = String([1, 2, 3, 4, 5])
+
+val = String(undefined)
+
+val = (true).toString()
+console.log(val)
+
+val = Number('5')
+
+val = Number(true)
+val = Number(false)
+val = Number(null)
+
+val = Number('test')
+val = Number([1, 2, 3])
+
+val = (true).toString()
+val = parseInt('100.3')
+
+val = parseFloat('100.30')
