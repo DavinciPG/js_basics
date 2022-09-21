@@ -1,68 +1,23 @@
-let name = 'Erki P2rna'
-name = 'New name'
-console.log(typeof name)
+const num1 = 100
+const num2 = 50
 
-let goodmark = 5
-console.log(typeof goodmark)
+let result
 
-let persent = 50.3
-console.log(typeof persent)
+result = num1 + num2
+result = num1 - num2
+result = num1 * num2
+result = num1 / num2
+result = num1 % num2
 
-let isHere = true
-console.log(typeof isHere)
+result = Math.PI
+result = Math.round(2.5)
+result = Math.ceil(2.3)
+result = Math.floor(2.8)
+result = Math.sqrt(64)
+result = Math.abs(-3)
+result = Math.pow(8, 2)
 
-const surname = 'P2rna'
-// surname = 'P2rn' - error
+result = Math.round(Math.random() * 11)
 
-const numbers = [1, 2, 3, 4, 5]
-console.log(numbers)
-numbers.push(6)
-console.log(numbers)
 
-const person = {
-    firstname: 'Erki',
-    surname: 'P2rna'
-}
-
-person.department = "IKT"
-console.log(person)
-console.log(typeof person)
-
-const airplane = null
-console.log(typeof airplane)
-
-const symbol = Symbol()
-console.log(typeof symbol)
-
-let test
-console.log(test)
-console.log(typeof test)
-
-let val
-val = String(true)
-val = String(false)
-
-val = String(new Date())
-
-val = String(null)
-
-val = String([1, 2, 3, 4, 5])
-
-val = String(undefined)
-
-val = (true).toString()
-console.log(val)
-
-val = Number('5')
-
-val = Number(true)
-val = Number(false)
-val = Number(null)
-
-val = Number('test')
-val = Number([1, 2, 3])
-
-val = (true).toString()
-val = parseInt('100.3')
-
-val = parseFloat('100.30')
+console.log(result)
