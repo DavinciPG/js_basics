@@ -34,3 +34,5 @@ val = numbers1.sort(function(x, y) {
     return y - x
 })
 
+console.log(val)
+
