@@ -1,32 +1,32 @@
 let val;
 
-val = document.getElementById('task-form')
-val = document.getElementById('task-form').id
-val = document.getElementById('task-form').className
+const list = document.querySelector('ul')
+const listItem = document.querySelector('li')
 
-const taskTitle = document
-    .getElementById('task-title')
+val = list
+val = list.childNodes
+val = list.childNodes[0]
+val = list.childNodes[0].nodeName
+val = list.childNodes[0].nodeType
 
-taskTitle.style.background = '#333'
-taskTitle.style.color = '#fff'
-taskTitle.style.padding = '15px'
-// taskTitle.style.display = 'none'
+val = list.children
+val = list.children[1].children
 
-taskTitle.textContent = 'Defined Tasks'
-taskTitle.innerText = 'My Favourite Tasks'
-taskTitle.innerHTML = '<b style="color: red">My Tasks</b>'
+val = list.firstChild
+val = list.firstElementChild
 
-val = document.querySelector('#task-title')
-val = document.querySelector('.card-title')
-val = document.querySelector('ul')
+val = list.lastChild
+val = list.lastElementChild
 
-//document.querySelector('li').style.color = '#2ea71c'
+val = list.children.length
 
-val = document.querySelector('li:last-child')
-oddLi = document.querySelectorAll('li:nth-child(odd)')
+val = listItem.parentNode
+val = listItem.parentElement
+val = listItem.parentElement.parentElement
 
-oddLi.forEach((li) => {
-    li.style.background = '#ddd'
-})
+val = listItem.nextSibling
+val = listItem.nextElementSibling
+val = listItem.nextElementSibling
+    .nextElementSibling.previousElementSibling
 
 console.log(val)
