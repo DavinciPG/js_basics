@@ -1,33 +1,32 @@
 let val;
 
-val = document
-val = document.all[6]
-val = document.all.length
+val = document.getElementById('task-form')
+val = document.getElementById('task-form').id
+val = document.getElementById('task-form').className
 
-val= document.head
-val = document.body
+const taskTitle = document
+    .getElementById('task-title')
 
-val = document.doctype
-val = document.domain
-val = document.URL
-val = document.characterSet
-val = document.contentType
+taskTitle.style.background = '#333'
+taskTitle.style.color = '#fff'
+taskTitle.style.padding = '15px'
+// taskTitle.style.display = 'none'
 
-val = document.forms
-val = document.forms[0]
-val = document.forms[0].method
-val = document.forms[0].action
-val = document.forms[0].id
+taskTitle.textContent = 'Defined Tasks'
+taskTitle.innerText = 'My Favourite Tasks'
+taskTitle.innerHTML = '<b style="color: red">My Tasks</b>'
 
-val = document.links
-val = document.links[0]
-val = document.links[0].id
-val = document.links[0].className
-val = document.links[0].classList
-val = document.links[0].classList[2]
+val = document.querySelector('#task-title')
+val = document.querySelector('.card-title')
+val = document.querySelector('ul')
 
-val = document.scripts
-val = document.scripts[0]
-val = document.scripts[1]
-val = document.scripts[1].getAttribute("src")
+//document.querySelector('li').style.color = '#2ea71c'
+
+val = document.querySelector('li:last-child')
+oddLi = document.querySelectorAll('li:nth-child(odd)')
+
+oddLi.forEach((li) => {
+    li.style.background = '#ddd'
+})
+
 console.log(val)
