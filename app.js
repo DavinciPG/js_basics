@@ -1,38 +1,33 @@
-const numbers1 = [43, 56, 33, 23, 44, 36, 5]
-const numbers2 = new Array(22, 45, 33, 76, 54)
+let val;
 
-let val
+val = document
+val = document.all[6]
+val = document.all.length
 
-val = numbers1.length
-val = numbers2.length
+val= document.head
+val = document.body
 
-val = numbers1[3]
-val = numbers1.indexOf(36)
+val = document.doctype
+val = document.domain
+val = document.URL
+val = document.characterSet
+val = document.contentType
 
-val = Array.isArray(numbers2)
+val = document.forms
+val = document.forms[0]
+val = document.forms[0].method
+val = document.forms[0].action
+val = document.forms[0].id
 
-numbers1.push(250)
-numbers1.pop()
-numbers1.unshift(120)
-numbers1.shift()
+val = document.links
+val = document.links[0]
+val = document.links[0].id
+val = document.links[0].className
+val = document.links[0].classList
+val = document.links[0].classList[2]
 
-val = numbers1.concat(numbers2)
-
-numbers1.sort()
-
+val = document.scripts
+val = document.scripts[0]
+val = document.scripts[1]
+val = document.scripts[1].getAttribute("src")
 console.log(val)
-console.log(numbers1)
-
-const fruits = ['banana', 'apple', 'orange']
-val = fruits.sort()
-
-val = numbers1.sort(function(x, y) {
-    return x - y
-})
-
-val = numbers1.sort(function(x, y) {
-    return y - x
-})
-
-console.log(val)
-
